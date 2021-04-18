@@ -1,0 +1,9 @@
+S -> D B | a | Z A1 | D S | a
+B1 -> Z B | b
+B -> B S | A B1 | a | D B | a | Z A1 | D S | a
+C -> B A | Z A1 | D S | a
+Z -> b
+A -> Z A1 | D S | a
+A1 -> A D
+D -> a
+S0 -> D B | a | Z A1 | D S | a
