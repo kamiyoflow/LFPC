@@ -1,0 +1,14 @@
+{"Grammar": {
+	"Nonterminal": ["S","A","C","D"],
+	"Terminal": ["b","e","g","f","y"],
+	"Productions":[
+		{"S": "Ag"},
+		{"A": "AbD"},
+		{"A": "C"},
+		{"C": "e"},
+		{"C": "CfD"},
+		{"D": "y"}
+		
+	],
+	"Start": "S"
+}}
